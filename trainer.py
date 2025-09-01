@@ -56,7 +56,7 @@ def extract_features(pcap_file, benign_ip='127.0.0.1', victim_ip='192.168.1.100'
 
 # --- Main Execution Block ---
 if __name__ == "__main__":
-    PCAP_FILE = 'coap_traffic.pcap'
+    PCAP_FILE = 'coap_new.pcap'
     
     # 1. Extract features from the captured traffic
     print(f"[+] Step 1: Extracting features from '{PCAP_FILE}'...")
